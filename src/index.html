@@ -12,23 +12,23 @@
 />
 </head>
 <body>
-  <header>
+  <!-- <header>
     <nav>
       <div class="w-full bg-gray-900">
         <div class="container mx-auto">
 
           <div class="h-[120px] flex justify-between items-center bg-gray-900 px-4">
-            <!-- Mobile Menu Icon -->
+            
             <button id="menu-toggle" class="lg:hidden text-white text-[40px]">
               <i class="ri-menu-line"></i>
             </button>
           
-            <!-- Logo -->
+           
             <div class="logo md:h-[70px] h-[35.4px]  md:w-[161px] w-[86.5px] bg-center bg-cover">
-              <!-- Your logo will display here -->
+          
             </div>
           
-            <!-- Desktop Menu -->
+           
             <div class="menu text-white hidden lg:block ">
               <ul class="list-none flex space-x-5 items-center ">
                 <li class="relative group">
@@ -61,10 +61,11 @@
               </ul>
             </div>
           
-            <!-- Mobile Menu (Hidden by Default) -->
+           
             <div id="mobile-menu" class="fixed inset-y-24 left-0 md:w-64 w-56 bg-gray-800 text-white transform -translate-x-full transition-transform duration-300 ease-in-out lg:hidden rounded-md">
               <ul class="space-y-5 p-5">
-                <li><a class="block text-[20px] p-2 rounded-md hover:bg-orange-600" href="#services">Services</a></li>
+                <li><a class="block text-[20px] p-2 rounded-md hover:bg-orange-600" href="#services">Services</a>
+                </li>
                 <li><a class="block text-[20px] p-2 rounded-md hover:bg-orange-600" href="#about">About</a></li>
                 <li><a class="block text-[20px] p-2 rounded-md hover:bg-orange-600" href="#blog">Blog</a></li>
                 <li><a class="block text-[20px] p-2 rounded-md hover:bg-orange-600" href="#work">Work</a></li>
@@ -79,7 +80,106 @@
         </div>
       </div>
     </nav>
+  </header> -->
+
+  <header class="sticky top-0 z-50" >
+    <nav>
+      <div class="w-full bg-gray-900">
+        <div class="container mx-auto">
+
+          <div class="h-[120px] flex justify-between items-center bg-gray-900 px-4">
+            <!-- Mobile Menu Icon -->
+            <button id="menu-toggle" class="lg:hidden text-white text-[40px]">
+              <i class="ri-menu-line"></i>
+            </button>
+          
+            <!-- Logo -->
+            <div class="logo md:h-[70px] h-[35.4px]  md:w-[161px] w-[86.5px] bg-center bg-cover">
+              <!-- Your logo will display here -->
+            </div>
+          
+            <!-- Desktop Menu -->
+            <div class="menu text-white hidden lg:block">
+              <ul class="list-none flex space-x-5 items-center">
+                <li class="relative group">
+                  <a class="px-2 text-[20px]  hover:bg-gray-700" href="#services">
+                    Services <i class="ri-arrow-drop-down-fill text-[30px]"></i>
+                  </a>
+                  <ul class="absolute w-[300px] hidden group-hover:block bg-gray-800 px-5 py-10 space-y-5 rounded-md">
+                    <li><a class="block text-[20px] hover:text-gray-300" href="#graphic-designing">Graphic Designing</a></li>
+                    <li><a class="block text-[20px] hover:text-gray-300" href="#website-development">Website Development</a></li>
+                    <li><a class="block text-[20px] hover:text-gray-300" href="#digital-marketing">Digital Marketing</a></li>
+                    <li><a class="block text-[20px] hover:text-gray-300" href="#content-writing">Content Writing</a></li>
+                    <li><a class="block text-[20px] hover:text-gray-300" href="#social-media-management">Social Media Management</a></li>
+                    <li><a class="block text-[20px] hover:text-gray-300" href="#video-editing">Video Editing</a></li>
+                    <li><a class="block text-[20px] hover:text-gray-300" href="#service-detail">Service Detail</a></li>
+                  </ul>
+                </li>
+                <li><a class="px-2 text-[20px]  hover:bg-gray-700" href="#about">About</a></li>
+                <li><a class="px-2 text-[20px]  hover:bg-gray-700" href="#blog">Blog</a></li>
+                <li class="relative group">
+                  <a class="px-2 text-[20px]  hover:bg-gray-700" href="#work">Work <i class="ri-arrow-drop-down-fill text-[30px]"></i></a>
+                  <ul class="absolute w-[230px] hidden group-hover:block bg-gray-800 px-5 py-8 space-y-3 rounded-md">
+                    <li><a class="block text-[20px] hover:text-gray-300" href="#portfolio">Portfolio</a></li>
+                    <li><a class="block text-[20px] hover:text-gray-300" href="#case-studies">Case Studies</a></li>
+                  </ul>
+                </li>
+                <li><a class="px-2 text-[20px]  hover:bg-gray-700" href="#career">Career</a></li>
+                <li><a class="px-2 text-[20px]  hover:bg-gray-700" href="#contact">Contact</a></li>
+                <li><a class="px-2 text-[20px] py-2 bg-orange-600 hover:bg-orange-400 text-white rounded" href="#hire-us">Hire Us</a></li>
+              </ul>
+            </div>
+          
+            <!-- Mobile Menu (Hidden by Default) -->
+            <div id="mobile-menu" class="fixed inset-y-24 left-0 md:w-64 w-56 bg-gray-800 text-white transform -translate-x-full transition-transform duration-300 ease-in-out lg:hidden rounded-md h-[600px]">
+              <ul class="space-y-4 p-5">
+                <li class="relative">
+                  <a id="mobile-services" class="block text-[20px] p-2 rounded-md hover:bg-orange-600 cursor-pointer">
+                    Services <i class="ri-arrow-drop-down-fill text-[30px]"></i>
+                  </a>
+                  <ul id="mobile-services-dropdown" class="hidden bg-gray-700 mt-2 rounded-md space-y-3 p-3 w-[220px] ml-10">
+                    <li><a class="block text-[20px] hover:bg-gray-600 rounded" href="#graphic-designing">Graphic Designing</a></li>
+                    <li><a class="block text-[20px] hover:bg-gray-600 rounded" href="#website-development">Website Development</a></li>
+                    <li><a class="block text-[20px] hover:bg-gray-600 rounded" href="#digital-marketing">Digital Marketing</a></li>
+                    <li><a class="block text-[20px] hover:bg-gray-600 rounded" href="#content-writing">Content Writing</a></li>
+                    <li><a class="block text-[20px] hover:bg-gray-600 rounded" href="#social-media-management">Social Media Management</a></li>
+                    <li><a class="block text-[20px] hover:bg-gray-600 rounded" href="#video-editing">Video Editing</a></li>
+                    <li><a class="block text-[20px] hover:bg-gray-600 rounded" href="#service-detail">Service Detail</a></li>
+                  </ul>
+                </li>
+                <li><a class="block text-[20px] p-2 rounded-md hover:bg-orange-600" href="#about">About</a></li>
+                <li><a class="block text-[20px] p-2 rounded-md hover:bg-orange-600" href="#blog">Blog</a></li>
+                
+                
+                <li class="relative">
+                  <a id="mobile-work" class="block text-[20px] p-2 rounded-md hover:bg-orange-600 cursor-pointer">
+                    Work <i class="ri-arrow-drop-down-fill text-[30px]"></i>
+                  </a>
+                  <ul id="mobile-work-dropdown" class="hidden bg-gray-700 mt-2 rounded-md space-y-3 p-3 w-[220px] ml-10">
+                    <li><a class="block text-[20px] hover:bg-gray-600 rounded" href="#portfolio">Portfolio</a></li>
+                    <li><a class="block text-[20px] hover:bg-gray-600 rounded" href="#case-studies">Case Studies</a></li>
+                  </ul>
+                </li>
+
+                <li><a class="block text-[20px] p-2 rounded-md hover:bg-orange-600" href="#career">Career</a></li>
+                <li><a class="block text-[20px] p-2 rounded-md hover:bg-orange-600" href="#contact">Contact</a></li>
+                <li><a class="block text-[20px] py-2 px-2 bg-orange-600 hover:bg-orange-400 text-white rounded-full " href="#hire-us">Hire Us</a></li>
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </nav>
   </header>
+
+
+
+
+
+
+
 
   <footer>
     <div class="w-full footer-bg-image bg-cover md:py-20 py-5 ">
