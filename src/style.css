@@ -5,5 +5,7 @@
 }
 
 .footer-bg-image{
-  background-image: url(/src/images/unsplash_fsH1KjbdjE8.png);
+  /* background-image: url(/src/images/unsplash_fsH1KjbdjE8.png); */
+  /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.405), rgba(0, 0, 0, 0.377)), url(/src/images/unsplash_fsH1KjbdjE8.png); */
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.695), rgba(0, 0, 0, 0.644)), url(/src/images/unsplash_fsH1KjbdjE8.png);
 }
