@@ -1,4 +1,8 @@
-
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .logo{
   background-image: url(/src/images/logo\ \(1\).png);
   
@@ -13,4 +17,17 @@
   background-image: url(/src/images/business-team-working-office-worker-concept.png);
   background-size: cover;
 }
-
+.bg-img2{
+  background-image: url(/src/images/orange-bg.png);
+  background-size: cover;
+}
+/* .d-img{
+  background-image: url(/src/images/boy-image.png);
+  background-size: cover;
+} */
+.solution-icon{
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  border: 1px solid black;
+}
