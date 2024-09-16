@@ -835,6 +835,10 @@ video {
   align-items: center;
 }
 
+.justify-normal {
+  justify-content: normal;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -1255,6 +1259,10 @@ video {
     align-items: flex-start;
   }
 
+  .md\:justify-normal {
+    justify-content: normal;
+  }
+
   .md\:gap-14 {
     gap: 3.5rem;
   }
@@ -1266,6 +1274,10 @@ video {
   .md\:py-20 {
     padding-top: 5rem;
     padding-bottom: 5rem;
+  }
+
+  .md\:text-left {
+    text-align: left;
   }
 
   .md\:text-\[30px\] {
