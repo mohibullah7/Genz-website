@@ -782,6 +782,14 @@ video {
   width: 20%;
 }
 
+.w-\[20vw\] {
+  width: 20vw;
+}
+
+.w-\[20\] {
+  width: 20;
+}
+
 .flex-shrink-0 {
   flex-shrink: 0;
 }
@@ -1048,6 +1056,14 @@ video {
   padding-bottom: 2.5rem;
 }
 
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pb-40 {
+  padding-bottom: 10rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1242,6 +1258,11 @@ video {
   .md\:py-20 {
     padding-top: 5rem;
     padding-bottom: 5rem;
+  }
+
+  .md\:px-\[30\%\] {
+    padding-left: 30%;
+    padding-right: 30%;
   }
 
   .md\:text-left {
