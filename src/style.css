@@ -5,6 +5,8 @@
 }
 .logo{
   background-image: url(/src/images/logo\ \(1\).png);
+  background-size: cover;
+  background-position: center;
   
 }
 
@@ -43,6 +45,7 @@
   width: 100%;
   height: 300px;
   margin: 20px auto;
+  background-color: red;
 }
 .swiper-slide {
   text-align: center;
@@ -52,7 +55,9 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  background-color: green;
 }
+
 
 .append-buttons {
   text-align: center;
